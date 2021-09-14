@@ -45,3 +45,19 @@ You will need a RISC-V "newlib" tool chain from
 https://github.com/riscv/riscv-gnu-toolchain, and qemu compiled for
 riscv64-softmmu. Once they are installed, and in your shell
 search path, you can run "make qemu".
+
+## How to build, run and debug 
+
+`$git clone git@github.com:matac42/xv6-riscv.git`
+
+`$cd xv6-riscv`
+
+`$docker-compose build --no-cache`
+
+`$docker-compose run --name xv6 xv6`
+
+別端末にて
+
+`$docker exec -it xv6 /bin/sh`
+
+`#gdb-multiarch`
