@@ -1,0 +1,2 @@
+add-auto-load-safe-path /xv6/.gdbinit
+set auto-load safe-path /
