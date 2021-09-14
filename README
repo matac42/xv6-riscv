@@ -56,8 +56,8 @@ search path, you can run "make qemu".
 
 `$docker-compose run --name xv6 xv6`
 
-別端末にて
+on another terminal
 
-`$docker exec -it xv6 /bin/sh`
+`$docker exec -it xv6 /bin/zsh`
 
 `#gdb-multiarch`

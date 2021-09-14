@@ -4,6 +4,7 @@ COPY root-gdbinit /root/.gdbinit
 
 RUN apt-get update && apt-get install -y \
   git \
+  zsh \
   build-essential \
   gdb-multiarch \
   qemu-system-misc \
