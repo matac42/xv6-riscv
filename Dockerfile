@@ -1,4 +1,4 @@
-FROM debian:10.10
+FROM amd64/debian:10.10
 
 COPY root-gdbinit /root/.gdbinit
 
