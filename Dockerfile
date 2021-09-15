@@ -1,8 +1,8 @@
-FROM debian:10.3
+FROM debian:10.10
 
 COPY root-gdbinit /root/.gdbinit
 
-RUN apt-get update && apt-get install -y \
+RUN apt update && apt install -y \
   git \
   zsh \
   build-essential \
